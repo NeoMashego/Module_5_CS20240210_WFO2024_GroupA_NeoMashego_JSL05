@@ -11,6 +11,11 @@ const songs = [
     { title: "Come and Get Your Love", artist: "Redbone", genre: "Rock" },
     { title: "I'm Not in Love", artist: "10cc", genre: "Pop" },
     { title: "Fooled Around and Fell in Love", artist: "Elvin Bishop", genre: "Rock" },
+    { title: "Save The Hero", artist: "Beyonce", genre: "Pop" },
+    { title: "Your Power", artist: "Billi Eilish", genre: "IndieFolk" },
+    { title: "Nice", artist: "The Carters", genre: "R&B" },
+    { title: "Risky", artist: "Elaine", genre: "R&B" },
+    { title: "Another Hole in the Head", artist: "Nickelback", genre: "Rock" },
     // Feel free to add even more songs
 ];
 
