@@ -24,6 +24,9 @@ const songs = [
 const guardians = {
     "Star-Lord": "Rock",
     "Gamora": "Pop",
+    "Drax": "R&B",
+    "Rocket": "R&B",
+    "Groot": "IndieFolk",
     // Add preferences for Drax, Rocket, and Groot
 };
 
