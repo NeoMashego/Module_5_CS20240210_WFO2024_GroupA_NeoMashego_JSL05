@@ -12,10 +12,10 @@ const songs = [
     { title: "I'm Not in Love", artist: "10cc", genre: "Pop" },
     { title: "Fooled Around and Fell in Love", artist: "Elvin Bishop", genre: "Rock" },
     { title: "Save The Hero", artist: "Beyonce", genre: "Pop" },
-    { title: "Your Power", artist: "Billi Eilish", genre: "IndieFolk" },
+    { title: "Your Power", artist: "Billi Eilish", genre: "Indie-Folk" },
     { title: "Nice", artist: "The Carters", genre: "R&B" },
     { title: "Risky", artist: "Elaine", genre: "R&B" },
-    { title: "Another Hole in the Head", artist: "Nickelback", genre: "Rock" },
+    { title: "Another Hole in the Head", artist: "Nickelback", genre: "Light-Mental" },
     // Feel free to add even more songs
 ];
 
@@ -25,8 +25,8 @@ const guardians = {
     "Star-Lord": "Rock",
     "Gamora": "Pop",
     "Drax": "R&B",
-    "Rocket": "R&B",
-    "Groot": "IndieFolk",
+    "Rocket": "Light-Metal",
+    "Groot": "Indie-Folk",
     // Add preferences for Drax, Rocket, and Groot
 };
 
