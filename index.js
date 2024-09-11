@@ -41,7 +41,7 @@ guardians = [
 console.log(guardians[2].name);
 const guardianName = guardians.map(g => {return g.name});
 console.log(guardianName[2]);
-const songOutput = songs.map(song =>{return song.title, song.artist});
+const songOutput = songs.map(song =>{return `${song.title} by ${song.artist}`});
 console.log(songOutput[2]);
 
 // Function to generate playlist based on preferred genre
