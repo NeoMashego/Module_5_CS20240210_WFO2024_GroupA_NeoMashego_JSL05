@@ -38,6 +38,8 @@ guardians = [
     { name: "Groot", genre: "Indie-Folk" },
 ]
 
+console.log(guardians[2].name);
+
 // Function to generate playlist based on preferred genre
 function generatePlaylist(guardians, songs) {
     // Use the map() function to create playlists for each Guardian
