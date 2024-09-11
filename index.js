@@ -39,6 +39,8 @@ guardians = [
 ]
 
 console.log(guardians[2].name);
+const guardianName = guardians.map(g => {return g.name});
+console.log(guardianName[2]);
 
 // Function to generate playlist based on preferred genre
 function generatePlaylist(guardians, songs) {
