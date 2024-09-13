@@ -51,4 +51,7 @@ function generatePlaylist(guardians, songs) {
 // Call generatePlaylist and display the playlists for each Guardian
 console.log(generatePlaylist(guardians, songs));
 
+let playlists = document.getElementById("playlists");
+playlists.innerHTML = generatePlaylist(guardians, songs);
+
 
