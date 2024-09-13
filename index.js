@@ -42,7 +42,10 @@ guardians = [
 function generatePlaylist(guardians, songs) {
     // Use the map() function to create playlists for each Guardian
     // Your code here
-    
+    return guardians.map(g => {
+        songs.find(s => s.genre === g.genre);
+        return `${guardians.name}'s Playlist ${songs.title} by ${songs.artist}`
+    })
 }
 
 // Call generatePlaylist and display the playlists for each Guardian
