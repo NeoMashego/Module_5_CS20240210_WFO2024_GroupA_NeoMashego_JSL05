@@ -46,7 +46,7 @@ function generatePlaylist(guardians, songs) {
 
     guardians.map(guardian => {
         // Filter songs based on the guardian's preferred genre
-        const sPlaylist = songs.filter(song => song.genre === guardian.genre);
+        songs.filter(song => song.genre === guardian.genre);
         console.log(`${guardian.name}'s Playlist:`)
         songs.map(song => {
             console.log(`- ${song.title} by ${song.artist}`);
