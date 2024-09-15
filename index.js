@@ -40,8 +40,7 @@ guardians = [
 
 // Function to generate playlist based on preferred genre
 function generatePlaylist(guardians, songs) {
-    // Use the map() function to create playlists for each Guardian
-    // Your code here
+    
     return guardians.map(g => {
         songs.find(s => s.genre === g.genre);
         return `${guardians.name}'s Playlist ${songs.title} by ${songs.artist}`
@@ -50,8 +49,3 @@ function generatePlaylist(guardians, songs) {
 
 // Call generatePlaylist and display the playlists for each Guardian
 console.log(generatePlaylist(guardians, songs));
-
-let playlists = document.getElementById("playlists");
-playlists.innerHTML = generatePlaylist(guardians, songs);
-
-
