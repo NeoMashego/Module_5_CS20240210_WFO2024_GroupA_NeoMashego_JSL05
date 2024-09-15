@@ -44,10 +44,20 @@ function generatePlaylist(guardians, songs) {
     const playlistDisplay = document.getElementById('playlists');
     playlistDisplay.innerHTML = ''; // create space for inner HTML content
 
-    return guardians.map(g => {
+    guardians.map(guardian => {
+        // Filter songs based on the guardian's preferred genre
+        const sPlaylist = songs.filter(song => song.genre === guardian.genre);
+        console.log(`${guardian.name}'s Playlist:`)
+        songs.map(song => {
+            console.log(`- ${song.title} by ${song.artist}`);
+        });
+        console.log('');
+    });
+
+    /*return guardians.map(g => {
         songs.find(s => s.genre === g.genre);
         return `${guardians.name}'s Playlist ${songs.title} by ${songs.artist}`
-    })
+    })*/
 }
 
 // Call generatePlaylist and display the playlists for each Guardian
