@@ -40,7 +40,10 @@ guardians = [
 
 // Function to generate playlist based on preferred genre
 function generatePlaylist(guardians, songs) {
-    
+    // Connect html to JS element
+    const playlistDisplay = document.getElementById('playlists');
+    playlistDisplay.innerHTML = ''; // create space for inner HTML content
+
     return guardians.map(g => {
         songs.find(s => s.genre === g.genre);
         return `${guardians.name}'s Playlist ${songs.title} by ${songs.artist}`
